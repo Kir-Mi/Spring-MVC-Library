@@ -19,6 +19,4 @@ public class Author {
     @NotEmpty(message = "Name cannot be empty")
     private String name;
     private String country;
-    @OneToMany
-    private List<Book> books;
 }
